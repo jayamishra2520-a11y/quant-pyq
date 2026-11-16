@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAT Quant PYQ — topic-wise question papers</title>
+<meta name="description" content="Topic-wise CAT Quantitative Ability past-year questions with answer keys, 2017-2025, covering every CAT slot.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📐</text></svg>">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf8; --panel: #ffffff; --ink: #1a1a1a; --muted: #5b6b7c;
+  --line: rgba(91,107,124,.22); --accent: #3c5a76; --accent-ink: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme=light]) {
+    --bg: #14171a; --panel: #1c2126; --ink: #e9e6e1; --muted: #9aa8b6;
+    --line: rgba(154,168,182,.24); --accent: #7fa6cc; --accent-ink: #12171c;
+  }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font: 16px/1.6 "Iowan Old Style","Source Serif 4",Charter,Georgia,serif; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+header { padding: 68px 0 34px; border-bottom: 1px solid var(--line); }
+.eyebrow { font: 600 11px/1 ui-sans-serif,system-ui,sans-serif; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); }
+h1 { font-size: clamp(30px,5vw,44px); font-weight:500; line-height:1.1; margin:14px 0 12px; }
+.lede { color:var(--muted); max-width: 60ch; margin:0; font-size:17px; }
+.stats { display:flex; flex-wrap:wrap; gap:26px; margin-top:26px; }
+.stat b { display:block; font-size:26px; font-weight:600; }
+.stat span { font: 500 11px/1.4 ui-sans-serif,system-ui,sans-serif; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--muted); }
+.group { margin: 44px 0 0; }
+.group h2 { font: 600 11px/1 ui-sans-serif,system-ui,sans-serif; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 16px; }
+.grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(248px,1fr)); }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:12px;
+  padding:18px 18px 16px; display:flex; flex-direction:column; gap:10px; }
+.card h3 { margin:0; font-size:18px; font-weight:600; line-height:1.25; }
+.count { margin:0; color:var(--muted); font-size:14px; }
+.count strong { color:var(--ink); font-size:16px; }
+.spark { display:flex; align-items:flex-end; gap:3px; height:26px; margin-top:auto; }
+.yr { flex:1; min-height:2px; height:var(--h); background:var(--accent); opacity:.45; border-radius:1px; }
+.sparklabel { display:flex; justify-content:space-between; align-items:center; gap:6px;
+  font:500 9.5px/1 ui-sans-serif,system-ui,sans-serif; letter-spacing:.06em; color:var(--muted);
+  margin:-4px 0 2px; }
+.sparklabel span { letter-spacing:.09em; text-transform:uppercase; opacity:.8; }
+.links { display:flex; gap:8px; }
+.btn { flex:1; text-align:center; text-decoration:none; border:1px solid var(--line);
+  border-radius:8px; padding:9px 10px; color:var(--ink); background:transparent;
+  font:600 13px/1 ui-sans-serif,system-ui,sans-serif; }
+.btn:hover { border-color:var(--accent); }
+.btn.primary { background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
+.about { margin:56px 0 0; padding:28px 0 0; border-top:1px solid var(--line); }
+.about h2 { font-size:22px; font-weight:600; margin:0 0 14px; }
+.about h3 { font-size:16px; font-weight:600; margin:26px 0 8px; }
+.about p, .about li { color:var(--muted); max-width:70ch; }
+table { border-collapse:collapse; width:100%; max-width:520px; margin-top:10px; font-size:15px; }
+th,td { text-align:left; padding:7px 10px 7px 0; border-bottom:1px solid var(--line); color:var(--muted); }
+th { font:600 11px/1 ui-sans-serif,system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; }
+td:first-child { color:var(--ink); }
+.note { border-left:2px solid var(--accent); padding:2px 0 2px 14px; margin:16px 0; }
+.mirror-tag { display:inline-block; margin-left:6px; padding:1px 6px; border-radius:4px;
+  background:rgba(138,106,60,.14); color:#8a6a3c;
+  font:600 9.5px/1.5 ui-sans-serif,system-ui,sans-serif; letter-spacing:.05em; text-transform:uppercase; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme=light]) .mirror-tag { color:#d8b483; background:rgba(216,180,131,.14); } }
+footer { margin:52px 0 64px; padding-top:22px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:14px; }
+a { color:var(--accent); }
+@media (max-width:560px) { header { padding-top:44px; } .grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Quantitative Ability · 2017–2025</div>
+  <h1>CAT past-year questions, by topic</h1>
+  <p class="lede">Every question here is reproduced from an official IIM CAT candidate
+  response sheet, and every answer is the one that sheet marks as correct. Nothing was
+  authored, transcribed, or reconstructed.</p>
+  <div class="stats">
+    <div class="stat"><b>612</b><span>Questions</span></div>
+    <div class="stat"><b>18</b><span>Topics</span></div>
+    <div class="stat"><b>24</b><span>Official papers</span></div>
+    <div class="stat"><b>596</b><span>Official answers</span></div>
+  </div>
+</header>
+
+<section class="group"><h2>Arithmetic</h2><div class="grid">
+        <article class="card">
+          <h3>Percentages</h3>
+          <p class="count"><strong>30</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:45%" title="CAT 2017: 5 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2018: 1 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2019: 6 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2020: 3 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2021: 6 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2022: 1 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2023: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2025: 2 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/01-percentages/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/01-percentages/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Profit, Loss &amp; Discount</h3>
+          <p class="count"><strong>27</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:45%" title="CAT 2017: 5 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2018: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2019: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2020: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2021: 2 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2022: 2 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2023: 4 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2025: 3 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/02-profit-loss-discount/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/02-profit-loss-discount/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Simple &amp; Compound Interest</h3>
+          <p class="count"><strong>20</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:0%" title="CAT 2017: 0 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2018: 2 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2019: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2020: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2021: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2022: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2023: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2025: 3 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/03-simple-compound-interest/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/03-simple-compound-interest/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Ratio, Proportion &amp; Mixtures</h3>
+          <p class="count"><strong>44</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:45%" title="CAT 2017: 5 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2018: 7 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2019: 4 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2020: 4 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2021: 3 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2022: 5 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2023: 4 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2024: 6 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2025: 6 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/04-ratio-proportion-mixtures/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/04-ratio-proportion-mixtures/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Averages</h3>
+          <p class="count"><strong>32</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:27%" title="CAT 2017: 3 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2018: 4 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2019: 2 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2020: 4 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2021: 4 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2022: 7 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2023: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2025: 2 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/05-averages/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/05-averages/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Time, Speed &amp; Distance</h3>
+          <p class="count"><strong>48</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:45%" title="CAT 2017: 5 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2018: 6 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2019: 7 question(s)"></span><span class="yr" style="--h:100%" title="CAT 2020: 11 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2021: 3 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2022: 5 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2023: 4 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2025: 4 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/06-time-speed-distance/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/06-time-speed-distance/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Time &amp; Work</h3>
+          <p class="count"><strong>34</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:27%" title="CAT 2017: 3 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2018: 6 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2019: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2020: 2 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2021: 6 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2022: 3 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2023: 4 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2025: 4 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/07-time-and-work/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/07-time-and-work/answer-key.pdf">Answers</a>
+          </div>
+        </article></div></section><section class="group"><h2>Algebra</h2><div class="grid">
+        <article class="card">
+          <h3>Linear Equations</h3>
+          <p class="count"><strong>21</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:18%" title="CAT 2017: 2 question(s)"></span><span class="yr" style="--h:0%" title="CAT 2018: 0 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2019: 1 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2020: 7 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2021: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2022: 2 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2023: 1 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2024: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2025: 3 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/08-linear-equations/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/08-linear-equations/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Quadratics &amp; Polynomials</h3>
+          <p class="count"><strong>41</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:36%" title="CAT 2017: 4 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2018: 2 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2019: 4 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2020: 4 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2021: 5 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2022: 6 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2023: 7 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2024: 4 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2025: 5 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/09-quadratic-equations-polynomials/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/09-quadratic-equations-polynomials/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Inequalities &amp; Modulus</h3>
+          <p class="count"><strong>39</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:27%" title="CAT 2017: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2018: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2019: 3 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2020: 7 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2021: 7 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2022: 5 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2023: 3 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2024: 4 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2025: 4 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/10-inequalities-and-modulus/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/10-inequalities-and-modulus/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Logarithms, Surds &amp; Indices</h3>
+          <p class="count"><strong>54</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:55%" title="CAT 2017: 6 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2018: 7 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2019: 6 question(s)"></span><span class="yr" style="--h:73%" title="CAT 2020: 8 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2021: 5 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2022: 3 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2023: 6 question(s)"></span><span class="yr" style="--h:73%" title="CAT 2024: 8 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2025: 5 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/11-logarithms-surds-indices/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/11-logarithms-surds-indices/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Functions &amp; Graphs</h3>
+          <p class="count"><strong>20</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:27%" title="CAT 2017: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2018: 3 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2019: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2020: 2 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2021: 1 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2022: 2 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2023: 1 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2024: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2025: 3 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/12-functions-and-graphs/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/12-functions-and-graphs/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Progressions &amp; Series</h3>
+          <p class="count"><strong>41</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:45%" title="CAT 2017: 5 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2018: 4 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2019: 6 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2020: 2 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2021: 5 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2022: 5 question(s)"></span><span class="yr" style="--h:55%" title="CAT 2023: 6 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2024: 4 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2025: 4 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/13-progressions-and-series/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/13-progressions-and-series/answer-key.pdf">Answers</a>
+          </div>
+        </article></div></section><section class="group"><h2>Geometry</h2><div class="grid">
+        <article class="card">
+          <h3>Plane Geometry &amp; Mensuration</h3>
+          <p class="count"><strong>77</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:82%" title="CAT 2017: 9 question(s)"></span><span class="yr" style="--h:100%" title="CAT 2018: 11 question(s)"></span><span class="yr" style="--h:91%" title="CAT 2019: 10 question(s)"></span><span class="yr" style="--h:73%" title="CAT 2020: 8 question(s)"></span><span class="yr" style="--h:82%" title="CAT 2021: 9 question(s)"></span><span class="yr" style="--h:73%" title="CAT 2022: 8 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2023: 7 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2024: 7 question(s)"></span><span class="yr" style="--h:73%" title="CAT 2025: 8 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/14-plane-geometry-mensuration/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/14-plane-geometry-mensuration/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Coordinate Geometry</h3>
+          <p class="count"><strong>15</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:27%" title="CAT 2017: 3 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2018: 1 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2019: 2 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2020: 3 question(s)"></span><span class="yr" style="--h:0%" title="CAT 2021: 0 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2022: 1 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2023: 2 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2024: 2 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2025: 1 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/15-coordinate-geometry/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/15-coordinate-geometry/answer-key.pdf">Answers</a>
+          </div>
+        </article></div></section><section class="group"><h2>Number Systems</h2><div class="grid">
+        <article class="card">
+          <h3>Number Systems</h3>
+          <p class="count"><strong>43</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:27%" title="CAT 2017: 3 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2018: 4 question(s)"></span><span class="yr" style="--h:36%" title="CAT 2019: 4 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2020: 5 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2021: 2 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2022: 5 question(s)"></span><span class="yr" style="--h:73%" title="CAT 2023: 8 question(s)"></span><span class="yr" style="--h:45%" title="CAT 2024: 5 question(s)"></span><span class="yr" style="--h:64%" title="CAT 2025: 7 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/16-number-systems/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/16-number-systems/answer-key.pdf">Answers</a>
+          </div>
+        </article></div></section><section class="group"><h2>Modern Math</h2><div class="grid">
+        <article class="card">
+          <h3>Permutations, Combinations &amp; Probability</h3>
+          <p class="count"><strong>18</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:36%" title="CAT 2017: 4 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2018: 2 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2019: 1 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2020: 1 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2021: 3 question(s)"></span><span class="yr" style="--h:18%" title="CAT 2022: 2 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2023: 1 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2024: 3 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2025: 1 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/17-permutations-combinations-probability/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/17-permutations-combinations-probability/answer-key.pdf">Answers</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Set Theory &amp; Venn Diagrams</h3>
+          <p class="count"><strong>8</strong> questions</p>
+          <div class="spark" aria-hidden="true"><span class="yr" style="--h:0%" title="CAT 2017: 0 question(s)"></span><span class="yr" style="--h:27%" title="CAT 2018: 3 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2019: 1 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2020: 1 question(s)"></span><span class="yr" style="--h:0%" title="CAT 2021: 0 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2022: 1 question(s)"></span><span class="yr" style="--h:0%" title="CAT 2023: 0 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2024: 1 question(s)"></span><span class="yr" style="--h:9%" title="CAT 2025: 1 question(s)"></span></div>
+          <div class="sparklabel">2017<span>questions by year</span>2025</div>
+          <div class="links">
+            <a class="btn primary" href="https://r4plh.github.io/quant-pyq/pdfs/18-set-theory-venn/questions.pdf">Questions</a>
+            <a class="btn" href="https://r4plh.github.io/quant-pyq/pdfs/18-set-theory-venn/answer-key.pdf">Answers</a>
+          </div>
+        </article></div></section>
+
+<section class="about">
+  <h2>About this compilation</h2>
+  <p>The only question paper IIM publishes is the candidate <em>response sheet</em> — a page
+  showing one candidate's exam with the correct answers marked. 398 of these
+  questions are built directly from those files. The other 214 are from slots
+  IIM never published a sheet for, and are marked <span class="mirror-tag">via cracku</span>
+  wherever they appear; see below.</p>
+
+  <h3>Why many questions are pictures</h3>
+  <p>The response sheet publishes math-typeset questions as images rather than text. Those are
+  embedded here exactly as published, so for them no transcription step exists and no
+  transcription error is possible. Questions written in plain language are published as text,
+  and that text is used verbatim.</p>
+
+  <h3>Why there are no question numbers</h3>
+  <p>CAT shows every candidate a different question and option order. A response sheet's "Q7" is
+  that candidate's seventh question, not the paper's. Questions are therefore labelled by year and
+  slot only. The option letters are the order shown here, and the answer key matches them.</p>
+  <div class="note">
+    <p>If you compare against another site, check the answer's <strong>value</strong>, not its
+    letter — their option order comes from the original paper and will often differ.</p>
+  </div>
+
+  <h3>Coverage</h3>
+  <table>
+    <thead><tr><th>Year</th><th>Questions</th><th>Notes</th></tr></thead>
+    <tbody><tr><td>CAT 2017</td><td>68</td><td>slot 1<span class="mirror-tag">via cracku</span>, 2<span class="mirror-tag">via cracku</span></td></tr><tr><td>CAT 2018</td><td>68</td><td>slot 1<span class="mirror-tag">via cracku</span>, 2<span class="mirror-tag">via cracku</span></td></tr><tr><td>CAT 2019</td><td>68</td><td>slot 1, 2<span class="mirror-tag">via cracku</span></td></tr><tr><td>CAT 2020</td><td>78</td><td>slot 1, 2, 3</td></tr><tr><td>CAT 2021</td><td>66</td><td>slot 1, 2, 3<span class="mirror-tag">via cracku</span></td></tr><tr><td>CAT 2022</td><td>66</td><td>slot 1, 2, 3</td></tr><tr><td>CAT 2023</td><td>66</td><td>slot 1, 2, 3</td></tr><tr><td>CAT 2024</td><td>66</td><td>slot 1, 2, 3</td></tr><tr><td>CAT 2025</td><td>66</td><td>slot 1, 2, 3<span class="mirror-tag">via cracku</span></td></tr></tbody>
+  </table>
+  <p style="margin-top:14px">CAT 2015 and 2016 are absent entirely: IIM released no paper for those years and no reliable published copy exists, so nothing is shown rather than a reconstruction.</p>
+
+  <h3>Two sources, always labelled</h3>
+  <p><strong>398</strong> questions come from official IIM response sheets.
+  The other <strong>214</strong> are from slots IIM never published a sheet for
+  — CAT 2017 and 2018 predate the format, and three later sheets were never indexed publicly.
+  Those are taken from Cracku's published copy and are marked
+  <span class="mirror-tag">via cracku</span> on every page they appear on.</p>
+  <div class="note">
+    <p>Mirror questions are someone else's transcription of the paper, so they carry that
+    site's typesetting and its answer rather than an official key. They are included for
+    completeness and labelled so you always know which you are looking at.</p>
+  </div>
+
+  <h3>Answers</h3>
+  <p>596 of 612 questions carry an answer. The remaining
+  16 are mostly CAT 2025 questions whose official sheet prints
+  <code>Possible Answer: NA</code>; those show a dash rather than a guess.</p>
+
+  <h3>Worked solutions</h3>
+  <p>The answer keys link to a published worked solution where one exists, but do not reproduce it —
+  those solutions are their authors' work. Follow the link in any answer key to read one.</p>
+</section>
+
+<footer>
+  Built September 2026 from official IIM CAT response sheets ·
+  Questions and answers © IIM · Compiled for study use.
+</footer>
+
+</div>
+</body>
+</html>
